@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/srl_timetable_depot_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcv_timetable_search_depot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:scrollbars="vertical">
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <include android:id="@+id/view_empty_search"
+            layout="@layout/template_empty_view"
+            android:visibility="gone"/>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/tv_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIMETABLE"/>
+</LinearLayout>

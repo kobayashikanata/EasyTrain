@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fl_popuw_layer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_up_arrow"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:minWidth="72dp"
+            android:minHeight="40dp"/>
+
+        <ImageView
+            android:id="@+id/iv_up_arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/arrow_up" />
+
+        <ImageView
+            android:id="@+id/iv_down_arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/fl_popuw_layer"
+            android:scaleType="fitStart"
+            android:src="@drawable/arrow_bottom" />
+    </RelativeLayout>
+</FrameLayout>

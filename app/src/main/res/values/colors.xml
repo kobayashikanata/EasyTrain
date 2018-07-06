@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF009688</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="colorMain">#16a085</color>
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorPrimaryDark">#FFFFFF</color>
+    <color name="textColorAccent">#FFFFFF</color>
+    <color name="textColorMain">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+
+    <color name="colorTextHint_default">#808080</color>
+
+    <color name="selected_block_bg">#96094c69</color>
+    <color name="grey_B3555555">#B3555555</color>
+    <color name="grey_AAAAAA">#AAAAAA</color>
+    <color name="grey_B3BDBDBD">#B3BDBDBD</color>
+    <color name="color_btn_unable">#c3c3c3</color>
+    <color name="color_header_bg">#f2f2f2</color>
+    <color name="default_control_bg">#FDFDFD</color>
+
+    <color name="color_text_depot_default">#B3BDBDBD</color>
+    <color name="color_text_depot_highlight">#8A000000</color>
+    <color name="default_background">#FAFAFA</color>
+    <color name="color_tips_bar">#fff1d4</color>
+
+</resources>

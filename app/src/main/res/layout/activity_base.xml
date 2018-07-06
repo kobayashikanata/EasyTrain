@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_common"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ActionBarWhiteIconTheme">
+        <TextView
+            android:id="@+id/tv_common_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <FrameLayout
+            android:id="@+id/pane_common_free_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/fl_layer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:layout_weight="1">
+    </FrameLayout>
+
+</LinearLayout>

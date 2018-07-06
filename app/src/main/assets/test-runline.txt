@@ -1,0 +1,23 @@
+{
+  "code": "北京-太原",
+  "name": "北京-太原",
+  "beginning": {
+    "order": 0,
+    "name": "北京",
+    "code": "2",
+    "arrivalTime": 0,
+    "stayTime": 0,
+    "driveTime": 2400
+  },
+  "terminal": {
+    "order": 0,
+    "name": "太原",
+    "code": "14",
+    "arrivalTime": 1527770400,
+    "stayTime": 6000,
+    "driveTime": 2400
+  },
+  "seatType": 1,
+  "crossSize": 2,
+  "payment": 80
+}

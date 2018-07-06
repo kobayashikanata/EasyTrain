@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_testing"
+            android:icon="@drawable/ic_test_warn"
+            android:title="@string/menu_testing"/>
+        <item android:id="@+id/menu_user"
+            android:icon="@drawable/ic_user"
+            android:title="@string/menu_user"/>
+    </group>
+    <item android:title="@string/menu_preference">
+        <menu>
+            <item android:id="@+id/menu_history"
+                android:icon="@drawable/ic_history"
+                android:title="@string/menu_history"/>
+            <item android:id="@+id/menu_settings"
+                android:icon="@drawable/ic_setting"
+                android:title="@string/menu_settings"/>
+        </menu>
+    </item>
+    <item android:title="@string/menu_others">
+        <menu>
+            <item android:id="@+id/menu_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/menu_about"/>
+        </menu>
+    </item>
+</menu>

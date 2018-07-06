@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_focused="true" android:state_checked="true" android:drawable="@drawable/ic_checked"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+    <item android:state_focused="true" android:state_checked="false" android:drawable="@drawable/ic_unchecked"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+    <item android:state_checked="false" android:drawable="@drawable/ic_unchecked_light"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+    <item android:state_checked="true" android:drawable="@drawable/ic_checked_light"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+</selector>

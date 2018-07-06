@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/sv_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="2dp"
+        android:background="#f3f3f3"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="#757575"
+        app:iconifiedByDefault="false"
+        app:searchIcon="@drawable/ic_search"
+        app:closeIcon="@drawable/ic_close0_dark"
+        app:queryBackground="@null"
+        app:queryHint="@string/hint_input_the_keyword"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+        <fragment
+            android:id="@+id/search_fragment"
+            class="com.per.epx.easytrain.views.activities.search.depot.DepotSearchFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include android:id="@+id/view_empty_depot"
+            layout="@layout/template_empty_view"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:id="@+id/progress_update_depot"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+    </FrameLayout>
+</LinearLayout>

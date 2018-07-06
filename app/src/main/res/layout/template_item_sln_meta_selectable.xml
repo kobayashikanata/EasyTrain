@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cv_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="4dp"
+    app:cardElevation="0.8dp">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp">
+        <CheckedTextView
+            android:id="@+id/ctv_check_sln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkMark="@drawable/selector_checkbox"
+            android:layout_gravity="center"/>
+        <include layout="@layout/template_item_sln_meta_common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

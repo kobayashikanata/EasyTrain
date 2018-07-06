@@ -1,0 +1,1106 @@
+{
+  "replyCode": 200,
+  "message": "",
+  "from": {
+    "id": 6,
+    "code": "nn",
+    "name": "南宁"
+  },
+  "to": {
+    "id": 7,
+    "code": "gl",
+    "name": "桂林"
+  },
+  "tripDate": 1530547200000,
+  "plans": [
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 5,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530625800000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3420,
+          "lineCode": "D8280",
+          "name": "南宁东-柳州",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 3900000,
+            "driveTime": 1530621660000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 167
+        },
+        {
+          "lineId": 3418,
+          "lineCode": "D8214",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 3900000,
+            "driveTime": 1530621660000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530625800000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        }
+      ],
+      "payment": 470.5
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 5,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530624600000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3420,
+          "lineCode": "D8280",
+          "name": "南宁东-柳州",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 2700000,
+            "driveTime": 1530620460000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 167
+        },
+        {
+          "lineId": 3425,
+          "lineCode": "D8452",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 2700000,
+            "driveTime": 1530620460000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530624600000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 177
+        }
+      ],
+      "payment": 537.5
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 5,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530628440000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3420,
+          "lineCode": "D8280",
+          "name": "南宁东-柳州",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 6540000,
+            "driveTime": 1530624300000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 167
+        },
+        {
+          "lineId": 3426,
+          "lineCode": "D8454",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 6540000,
+            "driveTime": 1530624300000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530628440000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 153.5
+        }
+      ],
+      "payment": 514
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 5,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530627060000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3420,
+          "lineCode": "D8280",
+          "name": "南宁东-柳州",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 5160000,
+            "driveTime": 1530622920000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 167
+        },
+        {
+          "lineId": 3429,
+          "lineCode": "D9684",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 5160000,
+            "driveTime": 1530622920000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530627060000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        }
+      ],
+      "payment": 470.5
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 5,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530631200000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 21720000,
+            "driveTime": 1530622020000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3419,
+          "lineCode": "D8218",
+          "name": "南宁东-柳州",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 21720000,
+            "driveTime": 1530622020000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530626580000,
+            "stayTime": 360000,
+            "driveTime": 1530626940000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        },
+        {
+          "lineId": 3419,
+          "lineCode": "D8218",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530626580000,
+            "stayTime": 360000,
+            "driveTime": 1530626940000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530631200000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        }
+      ],
+      "payment": 303.5
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 5,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530631200000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3420,
+          "lineCode": "D8280",
+          "name": "南宁东-柳州",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 9180000,
+            "driveTime": 1530626940000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 167
+        },
+        {
+          "lineId": 3419,
+          "lineCode": "D8218",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 9180000,
+            "driveTime": 1530626940000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530631200000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        }
+      ],
+      "payment": 470.5
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 5,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530630840000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3420,
+          "lineCode": "D8280",
+          "name": "南宁东-柳州",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 12900000,
+            "driveTime": 1530613200000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 8820000,
+            "driveTime": 1530626580000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 167
+        },
+        {
+          "lineId": 3424,
+          "lineCode": "D8416",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 3,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530617760000,
+            "stayTime": 8820000,
+            "driveTime": 1530626580000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530630840000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 166
+        }
+      ],
+      "payment": 526.5
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 6,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530625800000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 16200000,
+            "driveTime": 1530616500000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3418,
+          "lineCode": "D8214",
+          "name": "南宁东-来宾北",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 16200000,
+            "driveTime": 1530616500000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 19,
+            "name": "来宾北",
+            "code": "lbb",
+            "arrivalTime": 1530619560000,
+            "stayTime": 120000,
+            "driveTime": 1530619680000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        },
+        {
+          "lineId": 3418,
+          "lineCode": "D8214",
+          "name": "来宾北-柳州",
+          "beginning": {
+            "order": 3,
+            "id": 19,
+            "name": "来宾北",
+            "code": "lbb",
+            "arrivalTime": 1530619560000,
+            "stayTime": 120000,
+            "driveTime": 1530619680000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530621540000,
+            "stayTime": 120000,
+            "driveTime": 1530621660000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        },
+        {
+          "lineId": 3418,
+          "lineCode": "D8214",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 4,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530621540000,
+            "stayTime": 120000,
+            "driveTime": 1530621660000
+          },
+          "terminal": {
+            "order": 5,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530625800000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        }
+      ],
+      "payment": 303.5
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 6,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530628440000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 16200000,
+            "driveTime": 1530616500000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3418,
+          "lineCode": "D8214",
+          "name": "南宁东-来宾北",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 16200000,
+            "driveTime": 1530616500000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 19,
+            "name": "来宾北",
+            "code": "lbb",
+            "arrivalTime": 1530619560000,
+            "stayTime": 120000,
+            "driveTime": 1530619680000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        },
+        {
+          "lineId": 3418,
+          "lineCode": "D8214",
+          "name": "来宾北-柳州",
+          "beginning": {
+            "order": 3,
+            "id": 19,
+            "name": "来宾北",
+            "code": "lbb",
+            "arrivalTime": 1530619560000,
+            "stayTime": 120000,
+            "driveTime": 1530619680000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530621540000,
+            "stayTime": 2760000,
+            "driveTime": 1530624300000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        },
+        {
+          "lineId": 3426,
+          "lineCode": "D8454",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 4,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530621540000,
+            "stayTime": 2760000,
+            "driveTime": 1530624300000
+          },
+          "terminal": {
+            "order": 5,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530628440000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 153.5
+        }
+      ],
+      "payment": 457
+    },
+    {
+      "beginning": {
+        "order": 0,
+        "id": 6,
+        "name": "南宁",
+        "code": "nn",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530599160000
+      },
+      "terminal": {
+        "order": 6,
+        "id": 7,
+        "name": "桂林",
+        "code": "gl",
+        "arrivalTime": 1530627060000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "runLines": [
+        {
+          "lineId": 3427,
+          "lineCode": "D8462",
+          "name": "南宁-南宁东",
+          "beginning": {
+            "order": 1,
+            "id": 6,
+            "name": "南宁",
+            "code": "nn",
+            "arrivalTime": -1,
+            "stayTime": 1530599160001,
+            "driveTime": 1530599160000
+          },
+          "terminal": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 16200000,
+            "driveTime": 1530616500000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 193.5
+        },
+        {
+          "lineId": 3418,
+          "lineCode": "D8214",
+          "name": "南宁东-来宾北",
+          "beginning": {
+            "order": 2,
+            "id": 27,
+            "name": "南宁东",
+            "code": "nnd",
+            "arrivalTime": 1530600300000,
+            "stayTime": 16200000,
+            "driveTime": 1530616500000
+          },
+          "terminal": {
+            "order": 3,
+            "id": 19,
+            "name": "来宾北",
+            "code": "lbb",
+            "arrivalTime": 1530619560000,
+            "stayTime": 120000,
+            "driveTime": 1530619680000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        },
+        {
+          "lineId": 3418,
+          "lineCode": "D8214",
+          "name": "来宾北-柳州",
+          "beginning": {
+            "order": 3,
+            "id": 19,
+            "name": "来宾北",
+            "code": "lbb",
+            "arrivalTime": 1530619560000,
+            "stayTime": 120000,
+            "driveTime": 1530619680000
+          },
+          "terminal": {
+            "order": 4,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530621540000,
+            "stayTime": 1380000,
+            "driveTime": 1530622920000
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        },
+        {
+          "lineId": 3429,
+          "lineCode": "D9684",
+          "name": "柳州-桂林",
+          "beginning": {
+            "order": 4,
+            "id": 20,
+            "name": "柳州",
+            "code": "lz",
+            "arrivalTime": 1530621540000,
+            "stayTime": 1380000,
+            "driveTime": 1530622920000
+          },
+          "terminal": {
+            "order": 5,
+            "id": 7,
+            "name": "桂林",
+            "code": "gl",
+            "arrivalTime": 1530627060000,
+            "stayTime": -1,
+            "driveTime": -1
+          },
+          "seatType": 1,
+          "crossSize": 2,
+          "payment": 110
+        }
+      ],
+      "payment": 413.5
+    }
+  ],
+  "version": "v1.0"
+}

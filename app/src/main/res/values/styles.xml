@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="actionBarTheme">@style/ActionBarWhiteIconTheme</item>
+    </style>
+    <style name="AppThemeWhite" parent="AppTheme">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="ActionBarWhiteIconTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- THIS is where you can color the arrow! -->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/ic_splash_screen</item>
+    </style>
+
+    <style name="NoStatusSplashTheme" parent="SplashTheme">
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        <item name="android:windowTranslucentNavigation" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/transparent</item>
+    </style>
+
+    <style name="NoStatusTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        <item name="android:windowTranslucentNavigation" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/transparent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="FullscreenSplashTheme" parent="FullscreenTheme">
+        <item name="android:windowBackground">@drawable/ic_splash_screen</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <!-- Animations -->
+    <style name="BottomAnimated" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="TextViewInListStyle">
+        <item name="android:paddingStart" tools:targetApi="jelly_bean_mr1">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="android:paddingEnd" tools:targetApi="jelly_bean_mr1">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:paddingRight">?android:attr/listPreferredItemPaddingRight</item>
+    </style>
+
+</resources>

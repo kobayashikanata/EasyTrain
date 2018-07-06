@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">EasyTrain</string>
+
+    <string name="title_activity_greet">GreetActivity</string>
+    <string name="tb_title_activity_favorite">Favorite</string>
+    <string name="tb_title_activity_search_line">Search Line</string>
+    <string name="tb_title_activity_login">Login</string>
+    <string name="tb_title_activity_sln_detail">Detail</string>
+    <string name="tb_title_activity_slns">Solutions</string>
+    <string name="tb_title_activity_search_stop">SELECT PLACE</string>
+    <string name="tb_title_search_history">Search history</string>
+    <string name="tb_title_activity_settings">Settings</string>
+    <string name="tb_title_history">History</string>
+    <string name="tb_title_about">About</string>
+
+    <string-array name="range_array" >
+        <item>00:00</item>
+        <item>06:00</item>
+        <item>12:00</item>
+        <item>18:00</item>
+        <item>24:00</item>
+    </string-array>
+    <string-array name="hours">
+        <item>00:00 ~ 12:00</item>
+        <item>00:00 ~ 12:00</item>
+        <item>00:00 ~ 12:00</item>
+    </string-array>
+
+    <string-array name="search_types">
+        <item>@string/search_type_line</item>
+        <item>@string/search_type_timetable</item>
+    </string-array>
+
+    <string-array name="search_type_tips">
+        <item>@string/search_line_tips</item>
+        <item>@string/search_station_tips</item>
+    </string-array>
+
+    <string name="search_type_line">Route</string>
+    <string name="search_type_timetable">Timetable</string>
+    <string name="search_line_tips">Search route name</string>
+    <string name="search_station_tips">Search station name</string>
+
+
+    <string name="invalid_from_msg">Wrong from station inputted</string>
+    <string name="invalid_to_msg">Wrong to station inputted</string>
+    <string name="invalid_time_msg">Wrong time inputted</string>
+    <string name="invalid_transit_msg">Wrong transit inputted</string>
+
+    <string name="desc_search">Search</string>
+    <string name="desc_like">Like</string>
+    <string name="desc_history">History</string>
+    <string name="desc_exchange">Exchange</string>
+
+    <string name="header_beginning">BEGINNING</string>
+    <string name="header_terminal">TERMINAL</string>
+    <string name="header_trip_date">TRIP DATE</string>
+    <string name="header_preference">PREFERENCE</string>
+    <string name="header_transits">TRANSITS</string>
+    <string name="tips_input_begin_station">Input begin station</string>
+    <string name="tips_input_the_terminal">Input the terminal</string>
+
+    <string name="still_finding">Still finding</string>
+    <string name="content_title_account_login">Account Login</string>
+    <string name="label_today">today</string>
+    <string name="label_et_username">Username</string>
+    <string name="label_et_password">Password</string>
+    <string name="label_btn_login">Login</string>
+    <string name="label_btn_sign_up">Sign up</string>
+    <string name="label_btn_need_help">Need Help</string>
+    <string name="label_functions_tips">Get everywhere</string>
+    <string name="label_icon_history">History</string>
+    <string name="label_icon_favorite">Favorite</string>
+    <string name="label_icon_security">Security</string>
+    <string name="label_btn_search">Search</string>
+    <string name="label_duration">Duration</string>
+    <string name="subtitle_latest_updated_format">Latest updated %1$s</string>
+    <string name="header_data_list_with_time_format">DATA LIST(%1$s)</string>
+    <string name="btn_text_clear_history">Clear history</string>
+    <string name="tip_of_develop">\@Epxoxy. Using AndroidStudio3.0. This application is using for studying only.</string>
+    <string name="title_set_server_ip">Set Server Address</string>
+    <string name="tips_input_server_address">Input valid server address</string>
+    <string name="wrong_server_address_tips">Server address is not valid.</string>
+    <string name="header_server_address">Server Address</string>
+    <string name="tips_server_address_is_not_set">Server address is not set.</string>
+    <string name="title_change_language">Change language</string>
+    <string name="lang_en_name">English</string>
+    <string name="lang_zh_name">中文</string>
+    <string name="lang_default_name">Default</string>
+    <string name="tips_default_port_is_not_set">Port is not set.</string>
+    <string name="header_port">Port</string>
+    <string name="header_clear_on_exit">Clear on Exit</string>
+    <string name="tips_clear_on_exit">User data will be clear after exit.</string>
+    <string name="header_setting_language">Language</string>
+    <string name="menu_testing">Testing</string>
+    <string name="menu_user">User</string>
+    <string name="menu_preference">Preference</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_others">Others</string>
+    <string name="header_developer">Developer</string>
+    <string name="header_repositories">Repositories</string>
+    <string name="header_references">References</string>
+    <string name="hint_input_the_keyword">Input the keywords</string>
+    <string name="tv_label_previous_day">previous day</string>
+    <string name="tv_label_next_day">next day</string>
+    <string name="label_sort_duration">Duration</string>
+    <string name="label_sort_pay">Pay</string>
+    <string name="label_sort_drive">Drive</string>
+    <string name="label_sort_arrive">Arrive</string>
+    <string name="tv_label_more">More</string>
+    <string name="common_split">/</string>
+    <string name="pref_cheapest">CHEAPEST</string>
+    <string name="pref_shortest">SHORTEST</string>
+    <string name="pref_least_time">LEAST-TIME</string>
+    <string name="pref_least_transfer">LEAST-TRANSFER</string>
+    <string name="label_none">NONE</string>
+    <string name="ticket_type_adult">ADULT</string>
+    <string name="ticket_type_student">STUDENT</string>
+    <string name="tips_no_result_found">No result found</string>
+    <string name="depot_order">ORDER</string>
+    <string name="depot_name">DEPOT</string>
+    <string name="depot_arrive_time">ARRIVE</string>
+    <string name="depot_drive_time">DRIVE</string>
+    <string name="depot_stay_time">STAY</string>
+    <string name="label_route_stops">Stops</string>
+    <string name="header_depot_most">Most</string>
+    <string name="header_depot_hot">Hot</string>
+    <string name="header_depot_all">All</string>
+    <string name="label_version">Version</string>
+    <string name="header_settings_api_redirect">API Redirect</string>
+    <string name="default_settings_tips_using_remote_api">Using Remote API</string>
+    <string name="settings_tips_using_local_api">Using Local API(Test)</string>
+    <string name="btn_text_clear_favorite">Clear favorite</string>
+    <string name="header_is_debugging">Debugging</string>
+    <string name="tips_open_debug_option_debugging">Open debug option debugging</string>
+    <string name="tips_clear_ok">Clear successful!</string>
+    <string name="tips_deleted">Deleted</string>
+    <string name="over_day_format">+%1$dd</string>
+    <string name="tips_error_occupied">Error occupied</string>
+    <string name="tips_empty_msg">No more data</string>
+    <string name="tips_collecting_error_data">Collecting error data…</string>
+    <string name="label_exit_app">Exit app</string>
+    <string name="label_back_home_page">Home page</string>
+    <string name="label_route_pay">Pay</string>
+    <string name="label_time_spend">Spend</string>
+    <string name="label_crosses">Stops</string>
+    <string name="format_wait_time">After %1$s</string>
+    <string name="title_searching">Searching</string>
+    <string name="label_hour">hr</string>
+    <string name="label_minutes">min</string>
+    <string name="one_char_beginning">A</string>
+    <string name="one_char_terminal">B</string>
+    <string name="title_comparison_selection">Select two item to compare</string>
+    <string name="text_btn_sure">Sure</string>
+    <string name="title_comparison">Comparison</string>
+    <string name="label_sticky_scroll">Sticky Scroll</string>
+    <string name="format_from_to">%1$s TO %2$s</string>
+    <string name="tip_select_at_least_two">Selected size must be two!</string>
+    <string name="label_manual_comparison">Manual comparison</string>
+    <string name="label_comparison">Comparison</string>
+    <string name="label_edit">Edit</string>
+    <string name="lable_cancel_edit">Exit Edit</string>
+    <string name="label_trip_time">Trip time</string>
+    <string name="label_range_arrive_time">Arrive time</string>
+    <string name="label_range_transfer_time">Transfer time</string>
+    <string name="tips_no_limit">No Limit</string>
+    <string name="title_setup_time_range">Setup time range</string>
+    <string name="label_cancel">CANCEL</string>
+    <string name="label_apply">APPLY</string>
+    <string name="title_timetable_detail">Timetable detail</string>
+    <string name="app_name_one_char">E</string>
+    <string name="tips_function_search">Searching solutions,timetable and all lines of depots.</string>
+    <string name="tips_function_favorite">Like the solution just mark it as favorite, view it offline.</string>
+    <string name="tips_function_stores">All local stores are categorized for your convenience</string>
+    <string name="tips_title_search">Search</string>
+    <string name="tips_title_favorite">Favorite</string>
+    <string name="tips_title_stores">Stores</string>
+    <string name="header_keep_drawer_open">Keep drawer open</string>
+    <string name="tips_always_keep_drawer_open_on_click">Always keep drawer open on click.</string>
+    <string name="tips_recv_data_error">Receive data error</string>
+    <string name="tips_ex_connect">Network connection error occupied.</string>
+    <string name="tip_ex_network_no_available">Network not available</string>
+    <string name="title_error_page">Error Tips</string>
+    <string name="label_detail">Detail</string>
+    <string name="label_nonstop">nonstop</string>
+    <string name="tips_in_the_end">The end</string>
+    <string name="label_transfer">Transfer</string>
+    <string name="format_transfer_times">Transfer %d</string>
+    <string name="label_total_payment">payment</string>
+    <string name="tips_comparison_size">Comparison need enough items.</string>
+    <string name="tips_use_wide_template_to_show_solution_items">Use wide template to show solution items</string>
+    <string name="use_wide_template">Use wide template</string>
+</resources>

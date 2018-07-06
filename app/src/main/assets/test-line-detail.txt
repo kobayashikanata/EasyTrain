@@ -1,0 +1,79 @@
+{
+  "name": "D8406",
+  "beginning": {
+    "id": 16,
+    "code": "bh",
+    "name": "北海"
+  },
+  "terminal": {
+    "id": 7,
+    "code": "gl",
+    "name": "桂林"
+  },
+  "timeOfYearMonthDay": 1527955200000,
+  "passes": [
+    {
+      "order": 1,
+      "id": 16,
+      "code": "bh",
+      "name": "北海",
+      "arrivalTime": -1,
+      "stayTime": -1,
+      "driveTime": 1530588780000
+    },
+    {
+      "order": 2,
+      "id": 30,
+      "code": "gyb",
+      "name": "贵阳北",
+      "arrivalTime": 1530590880000,
+      "stayTime": 120000,
+      "driveTime": 1530591000000
+    },
+    {
+      "order": 3,
+      "id": 6,
+      "code": "nn",
+      "name": "南宁",
+      "arrivalTime": 1530594720000,
+      "stayTime": 1260000,
+      "driveTime": 1530595980000
+    },
+    {
+      "order": 4,
+      "id": 27,
+      "code": "nnd",
+      "name": "南宁东",
+      "arrivalTime": 1530596640000,
+      "stayTime": 180000,
+      "driveTime": 1530596820000
+    },
+    {
+      "order": 5,
+      "id": 19,
+      "code": "lbb",
+      "name": "来宾北",
+      "arrivalTime": 1530599880000,
+      "stayTime": 120000,
+      "driveTime": 1530600000000
+    },
+    {
+      "order": 6,
+      "id": 20,
+      "code": "lz",
+      "name": "柳州",
+      "arrivalTime": 1530601740000,
+      "stayTime": 180000,
+      "driveTime": 1530601920000
+    },
+    {
+      "order": 7,
+      "id": 7,
+      "code": "gl",
+      "name": "桂林",
+      "arrivalTime": 1530605820000,
+      "stayTime": -1,
+      "driveTime": -1
+    }
+  ]
+}

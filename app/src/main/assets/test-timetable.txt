@@ -1,0 +1,77 @@
+{
+  "depotId": 30,
+  "depotCode": "gyb",
+  "depotName": "贵阳北",
+  "timeOfYearMonthDay": 1530547200000,
+  "timetable": [
+    {
+      "lineCode": "D8406",
+      "name": "D8406",
+      "beginning": {
+        "order": 0,
+        "id": 16,
+        "code": "bh",
+        "name": "北海",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530588780000
+      },
+      "terminal": {
+        "order": 1,
+        "id": 7,
+        "code": "gl",
+        "name": "桂林",
+        "arrivalTime": 1530605820000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "crossSize": 7
+    },
+    {
+      "lineCode": "D8416",
+      "name": "D8416",
+      "beginning": {
+        "order": 2,
+        "id": 16,
+        "code": "bh",
+        "name": "北海",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530613320000
+      },
+      "terminal": {
+        "order": 3,
+        "id": 7,
+        "code": "gl",
+        "name": "桂林",
+        "arrivalTime": 1530630480000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "crossSize": 7
+    },
+    {
+      "lineCode": "D3570",
+      "name": "D3570",
+      "beginning": {
+        "order": 4,
+        "id": 1,
+        "code": "bj",
+        "name": "北京",
+        "arrivalTime": -1,
+        "stayTime": -1,
+        "driveTime": 1530601680000
+      },
+      "terminal": {
+        "order": 5,
+        "id": 30,
+        "code": "gyb",
+        "name": "贵阳北",
+        "arrivalTime": 1530629280000,
+        "stayTime": -1,
+        "driveTime": -1
+      },
+      "crossSize": 12
+    }
+  ]
+}

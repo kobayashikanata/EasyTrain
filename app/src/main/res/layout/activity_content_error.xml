@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white">
+        <LinearLayout
+            android:id="@+id/tv_next_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_error"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="@string/tips_error_occupied"
+                android:textSize="28sp"/>
+            <TextView
+                android:id="@+id/tv_back_home"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:background="@drawable/round_border_light"
+                android:layout_marginTop="40dp"
+                android:padding="12dp"
+                android:text="@string/label_back_home_page" />
+            <TextView
+                android:id="@+id/tv_exit_app"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:background="@drawable/round_border_light"
+                android:layout_marginTop="24dp"
+                android:padding="12dp"
+                android:text="@string/label_exit_app"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_collecting_error_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/tips_collecting_error_data"
+            android:textSize="24sp"/>
+
+    </FrameLayout>
+
+</FrameLayout>
